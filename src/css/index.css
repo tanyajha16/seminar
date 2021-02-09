@@ -1,0 +1,218 @@
+body
+{
+    margin: 0px;
+    background-color: var(--theme-ui-colors-background,#0C0717);
+    color: var(--theme-ui-colors-text,white);
+    box-sizing: border-box;
+}
+.heading
+{
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    font-family: Inter,system-ui,sans-serif;
+    background: linear-gradient(to right,var(--theme-ui-colors-secondary,#f219aa),var(--theme-ui-colors-primary,#7026B9));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3rem;
+    font-weight:bold;
+    text-transform: uppercase;
+    box-sizing: border-box;
+    margin:2rem;
+    -moz-letter-spacing: 0.08em;
+    -ms-letter-spacing: 0.08em;
+    letter-spacing: 0.09em;
+    text-align: center;
+}
+.time
+{
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    font-family: Inter,system-ui,sans-serif;
+    color: var(--theme-ui-colors-text,white);
+    font-size: 26px;
+    text-align: center;
+    color: var(--theme-ui-colors-secondary,#f219aa);
+    font-weight: 700;
+    text-transform: uppercase;
+    -webkit-letter-spacing: 0.08em;
+    -moz-letter-spacing: 0.08em;
+    -ms-letter-spacing: 0.08em;
+    letter-spacing: 0.08em;
+}
+.desc
+{
+    margin: 0;
+    margin-bottom: 16px;
+    text-align: center;
+    font-size: 20px;
+    line-height:1.5;
+}
+.desc p{
+    display: block;
+    margin:3rem;
+    font-size: 1.5rem;
+
+}
+.talks
+{
+    box-sizing: border-box;
+    margin:1rem;
+    min-width: 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    color: var(--theme-ui-colors-vivid,#A45DE9);
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width:90%;
+    padding: 32px;
+    padding-top: 64px;
+    padding-bottom:32px;
+    padding-right: 32px;
+    border-radius: 32px;
+    margin-left:5%;
+    background-color: var(--theme-ui-colors-purpleBackground,#160A27);
+    box-shadow: 8px 8px rgb(75 137 141 / 59%);
+    text-align: center;
+}
+.talk-head
+{
+    box-sizing: border-box;
+    margin: 0;
+    min-width: 0;
+    font-family: Inter,system-ui,sans-serif;
+    color: var(--theme-ui-colors-text,white);
+    color: var(--theme-ui-colors-vivid,#A45DE9);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.125;
+    -webkit-letter-spacing: 0.12em;
+    -moz-letter-spacing: 0.12em;
+    -ms-letter-spacing: 0.12em;
+    letter-spacing: 0.12em;
+    text-align: left;
+}
+.guest-lect
+{
+    background: linear-gradient(to right,var(--theme-ui-colors-secondary,#f219aa),var(--theme-ui-colors-primary,#7026B9));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.guest-lectures
+{
+    padding-left: 0;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    list-style: none;
+}
+
+li {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    padding-inline-start: 40px;
+    text-align: -webkit-match-parent;
+  
+}
+.pname{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.pdesc
+{
+    font-size :1.5rem;
+    font-weight: 200;
+}
+.talks li{
+    cursor:pointer;
+    text-decoration: none;
+    
+}
+.pdesc:hover,.pname:hover{
+  color:white;
+  
+}
+.talks li a{
+    text-decoration: none;
+}
+.ptopic
+{
+    /* position:absolute;
+    left:70%; */
+    font-size:1.8rem;
+    font-weight: bold;
+    background: linear-gradient(to right,var(--theme-ui-colors-secondary,#f219aa),var(--theme-ui-colors-primary,#7026B9));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+     display: flex;
+     flex-direction: column;
+}
+.sponcer-head
+{
+    text-align:center;
+    font-weight: bold;
+    font-family: sans-serif;
+    color:darkgoldenrod;
+    font-size: 2.5rem;
+
+}
+.sponcer-head:hover{
+    transform: scale(1.2);
+    
+}
+.sponsors
+{
+    margin:5%;
+    box-sizing: border-box;
+}
+.footer
+{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    /* -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; */
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-bottom: 32px;
+    padding-top: 64px;
+    box-sizing: border-box;
+}
+.maths-department
+{
+ margin-left: 5%;
+ box-sizing: border-box;
+ 
+}
+.name{
+    
+    color:darkgray;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.img-sponsors{
+    text-align: center;
+
+}
+.img-sponsors :hover{
+  transform: scale(1.2);
+    
+}
+.sponsor-name
+{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color:darkgoldenrod;
+    text-align: center;
+    margin: 5%;
+    box-sizing: border-box;
+}
